@@ -1,0 +1,13 @@
+{
+  "rule_name": "Letters",
+  "rule_desc": "hello",
+  "levels": [
+    [
+      {
+        "word": "S_r",
+        "correct_variant": "i",
+        "other_variants": ["y"]
+      }
+    ]
+  ]
+}
