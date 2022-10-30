@@ -1,6 +1,5 @@
 package ru.wyvern.trainer.screens
 
-import com.badlogic.gdx.scenes.scene2d.Stage
 import com.badlogic.gdx.scenes.scene2d.ui.Image
 import com.badlogic.gdx.scenes.scene2d.ui.Label
 import com.badlogic.gdx.scenes.scene2d.ui.Table
@@ -8,6 +7,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton
 import ru.wyvern.trainer.LanguageTrainer
 import ru.wyvern.trainer.loaders.rules.LanguageRule
 import ru.wyvern.trainer.utils.addClickListener
+import ru.wyvern.trainer.utils.createDefaultStage
 import ru.wyvern.trainer.utils.setCenteredPosition
 
 class LevelChoiceScreen(rule: LanguageRule) : StageScreen() {
@@ -19,25 +19,23 @@ class LevelChoiceScreen(rule: LanguageRule) : StageScreen() {
             val starsTable = Table()
             val starsCount = (ruleLevel.progress / 0.333f).toInt()
             for (i in 1..starsCount) {
-                val cell = starsTable.add(Image(LanguageTrainer.skin, "filled-star")).size(20f)
+                val cell = starsTable.add(Image(LanguageTrainer.skin, "filled-star-24")).size(20f)
                 if (i < 3) cell.padRight(5f)
             }
             for (i in starsCount until 3) {
-                val cell = starsTable.add(Image(LanguageTrainer.skin, "empty-star")).size(20f)
+                val cell = starsTable.add(Image(LanguageTrainer.skin, "empty-star-24")).size(20f)
                 if (i < 2) cell.padRight(5f)
             }
             levelTable.add(TextButton("${index + 1}", LanguageTrainer.skin).apply {
-                addClickListener {
-
-                }
+                addClickListener { LanguageTrainer.screen = GameScreen(rule, index) }
             }).size(60f).padBottom(5f)
             levelTable.row()
             levelTable.add(starsTable)
-            val cell = add(levelTable).padRight(10f)
+            val cell = add(levelTable)
             if (index < rule.levels.size - 1) cell.padRight(10f)
         }
     }
-    private val ruleInfo = Table().apply {
+    private val infoTable = Table().apply {
         add(Label("Запомни:", LanguageTrainer.skin)).left().width(200f)
         row()
         rule.description.split("\\n").forEach {
@@ -45,17 +43,22 @@ class LevelChoiceScreen(rule: LanguageRule) : StageScreen() {
             row()
         }
     }
+    private val exitButton = TextButton("Назад", LanguageTrainer.skin).apply {
+        addClickListener { LanguageTrainer.screen = RuleChoiceScreen() }
+    }
 
-    override val stage = Stage().apply {
+    override val stage = createDefaultStage().apply {
         addActor(headerLabel)
-        addActor(ruleInfo)
+        addActor(infoTable)
         addActor(levelList)
+        addActor(exitButton)
     }
 
     override fun resize(width: Int, height: Int) {
         headerLabel.setCenteredPosition(width, height, y = 200f)
         levelList.setCenteredPosition(width, height, y = 60f)
-        ruleInfo.setCenteredPosition(width, height, y = -90f)
+        exitButton.setCenteredPosition(width, height, y = -40f)
+        infoTable.setCenteredPosition(width, height, y = -150f)
     }
 
 }

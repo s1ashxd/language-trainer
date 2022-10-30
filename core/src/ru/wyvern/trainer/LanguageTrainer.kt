@@ -14,12 +14,11 @@ import ru.wyvern.trainer.loaders.rules.LanguageRuleLoader
 import ru.wyvern.trainer.loaders.skins.FreeTypeSkinLoader
 import ru.wyvern.trainer.screens.MainMenuScreen
 
-
 object LanguageTrainer : Game() {
 
     const val APPLICATION_TITLE = "Language Trainer"
     const val APPLICATION_WIDTH = 740f
-    const val APPLICATION_HEIGHT = 540f
+    const val APPLICATION_HEIGHT = 580f
 
     lateinit var camera: OrthographicCamera
     lateinit var viewport: FillViewport
@@ -39,8 +38,8 @@ object LanguageTrainer : Game() {
             setLoader(Skin::class.java, FreeTypeSkinLoader(fileHandleResolver))
             load("skin/skin.json", Skin::class.java)
             finishLoading()
+            skin = get("skin/skin.json")
         }
-        skin = assetManager.get("skin/skin.json")
         setScreen(MainMenuScreen())
     }
 

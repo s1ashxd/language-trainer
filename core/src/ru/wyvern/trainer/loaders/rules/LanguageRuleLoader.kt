@@ -33,12 +33,17 @@ class LanguageRuleLoader(resolver: FileHandleResolver) :
         json.get("levels").forEachIndexed { index, jsonLevel ->
             val words = mutableListOf<LanguageRule.LevelWord>()
             jsonLevel.forEach {
-                val word = LanguageRule.LevelWord(
-                    it["word"].asString(),
-                    it["correct_variant"].asString(),
-                    it["other_variants"].asStringArray().asList()
+                val correctVariant = it["correct_variant"].asString()
+                words.add(
+                    LanguageRule.LevelWord(
+                        it["word"].asString(),
+                        correctVariant,
+                        mutableListOf<String>().apply {
+                            add(correctVariant)
+                            addAll(it["other_variants"].asStringArray())
+                        }.shuffled()
+                    )
                 )
-                words.add(word)
             }
             levels.add(LanguageRule.RuleLevel(words, LanguageTrainer.preferences.getFloat("${name}_$index", 0f)))
         }

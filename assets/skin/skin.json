@@ -1,85 +1,178 @@
 {
-"com.badlogic.gdx.graphics.Color": {
-	"orange": {
-		"r": 0.9764706,
-		"g": 0.827451,
-		"b": 0.65882355,
-		"a": 1
-	},
-	"white": {
-		"r": 1,
-		"g": 1,
-		"b": 1,
-		"a": 1
-	}
-},
-"com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator": {
-	"myriad-header": {
-		"font": "myriad.ttf",
-		"size": 70,
-		"mono": false,
-		"color": "white",
-		"gamma": 1.8,
-		"renderCount": 1,
-		"borderWidth": 3,
-		"borderColor": "orange",
-		"borderStraight": true,
-		"borderGamma": 1.8,
-		"shadowOffsetX": 0,
-		"shadowOffsetY": 0,
-		"spaceX": 0,
-		"spaceY": 0,
-		"kerning": true,
-		"flip": false,
-		"genMipMaps": false,
-		"incremental": false,
-		"hinting": "AutoMedium",
-		"minFilter": "Nearest",
-		"magFilter": "Nearest",
-		"characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ_!%?:*()"
-	},
-	"myriad-label": {
-		"font": "myriad.ttf",
-		"size": 20,
-		"mono": false,
-		"color": "white",
-		"gamma": 1.8,
-		"renderCount": 2,
-		"borderWidth": 2,
-		"borderColor": "orange",
-		"borderStraight": false,
-		"borderGamma": 1.8,
-		"shadowOffsetX": 0,
-		"shadowOffsetY": 0,
-		"spaceX": 0,
-		"spaceY": 0,
-		"kerning": true,
-		"flip": false,
-		"genMipMaps": false,
-		"incremental": false,
-		"hinting": "AutoMedium",
-		"minFilter": "Nearest",
-		"magFilter": "Nearest",
-		"characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ_!%?:*()"
-	}
-},
-"com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
-	"default": {
-		"font": "myriad-label"
-	},
-	"header": {
-		"font": "myriad-header"
-	}
-},
-"com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
-	"default": {
-		"font": "myriad-label",
-		"up": "button"
-	}
-},
-"com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle": {
-	"default": {
-		"label": "default"
-	}
-}
+  "com.badlogic.gdx.graphics.Color": {
+    "green": {
+      "r": 0,
+      "g": 1,
+      "b": 0,
+      "a": 1
+    },
+    "orange": {
+      "r": 0.9764706,
+      "g": 0.827451,
+      "b": 0.65882355,
+      "a": 1
+    },
+    "red": {
+      "r": 1,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "white": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+    }
+  },
+  "com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator": {
+    "header-error": {
+      "font": "myriad.ttf",
+      "size": 50,
+      "mono": false,
+      "color": "white",
+      "gamma": 1.8,
+      "renderCount": 2,
+      "borderWidth": 3,
+      "borderColor": "red",
+      "borderStraight": false,
+      "borderGamma": 1.8,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "spaceX": 0,
+      "spaceY": 0,
+      "kerning": true,
+      "flip": false,
+      "genMipMaps": false,
+      "incremental": false,
+      "hinting": "AutoMedium",
+      "minFilter": "Nearest",
+      "magFilter": "Nearest",
+      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ.,_!%?:*()"
+    },
+    "header-success": {
+      "font": "myriad.ttf",
+      "size": 50,
+      "mono": false,
+      "color": "white",
+      "gamma": 1.8,
+      "renderCount": 2,
+      "borderWidth": 3,
+      "borderColor": "green",
+      "borderStraight": false,
+      "borderGamma": 1.8,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "spaceX": 0,
+      "spaceY": 0,
+      "kerning": true,
+      "flip": false,
+      "genMipMaps": false,
+      "incremental": false,
+      "hinting": "AutoMedium",
+      "minFilter": "Nearest",
+      "magFilter": "Nearest",
+      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ.,_!%?:*()"
+    },
+    "myriad-header": {
+      "font": "myriad.ttf",
+      "size": 70,
+      "mono": false,
+      "color": "white",
+      "gamma": 1.8,
+      "renderCount": 1,
+      "borderWidth": 3,
+      "borderColor": "orange",
+      "borderStraight": true,
+      "borderGamma": 1.8,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "spaceX": 0,
+      "spaceY": 0,
+      "kerning": true,
+      "flip": false,
+      "genMipMaps": false,
+      "incremental": false,
+      "hinting": "AutoMedium",
+      "minFilter": "Nearest",
+      "magFilter": "Nearest",
+      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ.,_!%?:*()"
+    },
+    "myriad-label": {
+      "font": "myriad.ttf",
+      "size": 20,
+      "mono": false,
+      "color": "white",
+      "gamma": 1.8,
+      "renderCount": 2,
+      "borderWidth": 2,
+      "borderColor": "orange",
+      "borderStraight": false,
+      "borderGamma": 1.8,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "spaceX": 0,
+      "spaceY": 0,
+      "kerning": true,
+      "flip": false,
+      "genMipMaps": false,
+      "incremental": false,
+      "hinting": "AutoMedium",
+      "minFilter": "Nearest",
+      "magFilter": "Nearest",
+      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ.,_!%?:*()"
+    },
+    "myriad-small-header": {
+      "font": "myriad.ttf",
+      "size": 50,
+      "mono": false,
+      "color": "white",
+      "gamma": 1.8,
+      "renderCount": 2,
+      "borderWidth": 3,
+      "borderColor": "orange",
+      "borderStraight": false,
+      "borderGamma": 1.8,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "spaceX": 0,
+      "spaceY": 0,
+      "kerning": true,
+      "flip": false,
+      "genMipMaps": false,
+      "incremental": false,
+      "hinting": "AutoMedium",
+      "minFilter": "Nearest",
+      "magFilter": "Nearest",
+      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ.,_!%?:*()"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+    "default": {
+      "font": "myriad-label"
+    },
+    "header": {
+      "font": "myriad-header"
+    },
+    "small-header": {
+      "font": "myriad-small-header"
+    },
+    "header-error": {
+      "font": "header-error"
+    },
+    "header-success": {
+      "font": "header-success"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+    "default": {
+      "font": "myriad-label",
+      "up": "button"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle": {
+    "default": {
+      "label": "default"
+    }
+  }
 }

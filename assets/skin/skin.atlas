@@ -1,29 +1,43 @@
 
 skin.png
-size: 128, 128
+size: 256, 256
 format: RGBA8888
 filter: Linear, Linear
 repeat: none
-empty-star
-  rotate: false
-  xy: 1, 58
-  size: 20, 19
-  orig: 20, 19
-  offset: 0, 0
-  index: -1
-filled-star
-  rotate: false
-  xy: 1, 37
-  size: 20, 19
-  orig: 20, 19
-  offset: 0, 0
-  index: -1
 button
   rotate: false
-  xy: 1, 79
+  xy: 1, 127
   size: 120, 40
   split: 16, 16, 10, 10
   pad: 48, 47, 19, 19
   orig: 120, 40
+  offset: 0, 0
+  index: -1
+empty-star-24
+  rotate: false
+  xy: 123, 144
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+empty-star-64
+  rotate: false
+  xy: 1, 64
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+filled-star-24
+  rotate: false
+  xy: 67, 102
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+filled-star-64
+  rotate: false
+  xy: 1, 1
+  size: 64, 61
+  orig: 64, 61
   offset: 0, 0
   index: -1

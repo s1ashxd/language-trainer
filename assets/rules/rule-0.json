@@ -1,12 +1,35 @@
 {
   "rule_name": "Letters",
-  "rule_desc": "hello",
+  "rule_desc": "ЖИ ШИ всегда пишется\nс буквой И, а ЧА ЩА - с\nбуквой А!",
   "levels": [
     [
       {
         "word": "S_r",
         "correct_variant": "i",
-        "other_variants": ["y"]
+        "other_variants": [
+          "y"
+        ]
+      },
+      {
+        "word": "yes",
+        "correct_variant": "ij",
+        "other_variants": [
+          "y"
+        ]
+      },
+      {
+        "word": "n o",
+        "correct_variant": "il",
+        "other_variants": [
+          "yg"
+        ]
+      },
+      {
+        "word": "S_r",
+        "correct_variant": "i",
+        "other_variants": [
+          "y"
+        ]
       }
     ]
   ]
