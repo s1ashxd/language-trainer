@@ -45,13 +45,10 @@ class RuleChoiceScreen : StageScreen() {
         addActor(buttonTable)
     }
 
-    override fun resize(width: Int, height: Int) {
-//        headerLabel1.setCenteredPosition(width, height, x = -headerLabel1.height + 20f, y = 200f)
-//        headerLabel2.setCenteredPosition(width, height, x = -headerLabel2.height + 20f, y = 160f)
-//        buttonTable.setCenteredPosition(width, height, x = -buttonTable.height + 10f, y = 100f)
-        headerLabel1.setPosition(20f, (height - headerLabel1.height) / 2f + 200f)
-        headerLabel2.setPosition(20f, (height - headerLabel2.height) / 2f + 150f)
-        buttonTable.setPosition(10f, (height - headerLabel1.height) / 2f + 130f)
+    init {
+        headerLabel1.setPosition(20f, (LanguageTrainer.APPLICATION_HEIGHT - headerLabel1.height) / 2f + 200f)
+        headerLabel2.setPosition(20f, (LanguageTrainer.APPLICATION_HEIGHT - headerLabel2.height) / 2f + 150f)
+        buttonTable.setPosition(10f, (LanguageTrainer.APPLICATION_HEIGHT - headerLabel1.height) / 2f + 130f)
     }
 
 }

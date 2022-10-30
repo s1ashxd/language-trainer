@@ -1,6 +1,5 @@
 package ru.wyvern.trainer.screens
 
-import com.badlogic.gdx.Gdx
 import com.badlogic.gdx.scenes.scene2d.ui.Label
 import com.badlogic.gdx.scenes.scene2d.ui.Table
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton
@@ -27,10 +26,8 @@ class GameScreen(private val rule: LanguageRule, private val levelIndex: Int) : 
         addActor(variantsTable)
     }
 
-    override fun resize(width: Int, height: Int) {
-        headerLabel.setCenteredPosition(width, height, y = 160f)
-        variantsTable.setCenteredPosition(width, height, y = 70f)
-        noticeTable.setCenteredPosition(width, height, y = -170f)
+    init {
+        refreshPositions()
     }
 
     private fun loop(index: Int) {
@@ -72,7 +69,13 @@ class GameScreen(private val rule: LanguageRule, private val levelIndex: Int) : 
             addActor(variantsTable)
             if (noticed) addActor(noticeTable)
         }
-        resize(Gdx.graphics.width, Gdx.graphics.height)
+        refreshPositions()
+    }
+
+    private fun refreshPositions() {
+        headerLabel.setCenteredPosition(y = 160f)
+        variantsTable.setCenteredPosition(y = 70f)
+        noticeTable.setCenteredPosition(y = -170f)
     }
 
     private fun endGame() {

@@ -53,10 +53,10 @@ class GameOverScreen(rule: LanguageRule, progress: Float) : StageScreen() {
     }
 
     override fun resize(width: Int, height: Int) {
-        headerLabel.setCenteredPosition(width, height, y = 200f)
-        starsTable.setCenteredPosition(width, height, y = 100f)
-        statusTable.setCenteredPosition(width, height, y = 40f)
-        exitButton.setCenteredPosition(width, height, y = -170f)
+        headerLabel.setCenteredPosition(y = 200f)
+        starsTable.setCenteredPosition(y = 100f)
+        statusTable.setCenteredPosition(y = 40f)
+        exitButton.setCenteredPosition(y = -170f)
     }
 
     private fun addStarImage(table: Table, starID: String, padding: Boolean) {

@@ -8,8 +8,11 @@ import ru.wyvern.trainer.LanguageTrainer
 
 fun createDefaultStage() = Stage(LanguageTrainer.viewport, LanguageTrainer.batch)
 
-fun Actor.setCenteredPosition(screenWidth: Int, screenHeight: Int, x: Float = 0f, y: Float = 0f) =
-    setPosition(x + (screenWidth - width) / 2f, y + (screenHeight - height) / 2f)
+fun Actor.setCenteredPosition(x: Float = 0f, y: Float = 0f) =
+    setPosition(
+        x + (LanguageTrainer.APPLICATION_WIDTH - width) / 2f,
+        y + (LanguageTrainer.APPLICATION_HEIGHT - height) / 2f
+    )
 
 inline fun Actor.addClickListener(crossinline listener: () -> Unit) {
     addListener(object : ClickListener() {

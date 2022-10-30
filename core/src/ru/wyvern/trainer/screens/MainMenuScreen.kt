@@ -28,11 +28,11 @@ class MainMenuScreen : StageScreen() {
         addActor(exitButton)
     }
 
-    override fun resize(width: Int, height: Int) {
-        headerLabel1.setCenteredPosition(width, height, y = 160f)
-        headerLabel2.setCenteredPosition(width, height, y = 100f)
-        startButton.setCenteredPosition(width, height, y = -40f)
-        exitButton.setCenteredPosition(width, height, y = -100f)
+    init {
+        headerLabel1.setCenteredPosition(y = 160f)
+        headerLabel2.setCenteredPosition(y = 100f)
+        startButton.setCenteredPosition(y = -40f)
+        exitButton.setCenteredPosition(y = -100f)
     }
 
 }

@@ -54,11 +54,11 @@ class LevelChoiceScreen(rule: LanguageRule) : StageScreen() {
         addActor(exitButton)
     }
 
-    override fun resize(width: Int, height: Int) {
-        headerLabel.setCenteredPosition(width, height, y = 200f)
-        levelList.setCenteredPosition(width, height, y = 60f)
-        exitButton.setCenteredPosition(width, height, y = -40f)
-        infoTable.setCenteredPosition(width, height, y = -150f)
+    init {
+        headerLabel.setCenteredPosition(y = 200f)
+        levelList.setCenteredPosition(y = 60f)
+        exitButton.setCenteredPosition(y = -40f)
+        infoTable.setCenteredPosition(y = -150f)
     }
 
 }
