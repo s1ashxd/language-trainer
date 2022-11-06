@@ -1,6 +1,6 @@
 [![wakatime](https://wakatime.com/badge/user/7bd5c752-a5ea-4366-aa1b-b104cdd271eb/project/5af4704c-fdb9-4d46-84ed-e41bceb9085e.svg)](https://wakatime.com/badge/user/7bd5c752-a5ea-4366-aa1b-b104cdd271eb/project/5af4704c-fdb9-4d46-84ed-e41bceb9085e)
 # Russian Language Trainer
-A simple application written in Kotlin using the libGDX framework. The game is intended for Russian-speaking students of the 2nd grade.
+A simple application written in Kotlin using the libGDX framework. The game is intended for Russian-speaking students of the 2nd grade.<br>
 Простое приложение, написанное на языке Kotlin с использованием фреймворка libGDX. Игра предназначена для русскоговорящих учеников 2-ых классов.
 
 # Installation and launch
