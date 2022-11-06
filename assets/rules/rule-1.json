@@ -1,0 +1,150 @@
+{
+  "rule_name": "Пapныe сoглacныe в корне",
+  "description": "Cущecтвуют пapныe coглacныe пo глуxocти - звoнкocти:\nБ-П, B-Ф, Г-K, Д-T, Ж-Ш, З-C. Чтoбы пpaвильнo нaпиcaть coглacную\nв кopнe cлoвa, нaдo измeнить cлoвo или пoдoбpaть тaкoe\noднoкopeннoe cлoвo, вкoтopoм пocлe пpoвepяeмoй\ncoглacнoй cтoялa бы глacнaя или coглacныe Л, M, H, P:\nдуб - дубы, кpуг - кpуглa, кpуглый.",
+  "levels": [
+    [
+      {
+        "word": "Моро_",
+        "correct_variant": "з",
+        "other_variants": [
+          "с"
+        ]
+      },
+      {
+        "word": "Побе_",
+        "correct_variant": "г",
+        "other_variants": [
+          "к"
+        ]
+      },
+      {
+        "word": "Тру_",
+        "correct_variant": "д",
+        "other_variants": [
+          "т"
+        ]
+      },
+      {
+        "word": "Свисто_",
+        "correct_variant": "к",
+        "other_variants": [
+          "г"
+        ]
+      },
+      {
+        "word": "Ло_ка",
+        "correct_variant": "ж",
+        "other_variants": [
+          "ш"
+        ]
+      },
+      {
+        "word": "Ло_ка",
+        "correct_variant": "д",
+        "other_variants": [
+          "т"
+        ]
+      },
+      {
+        "word": "У_кий",
+        "correct_variant": "з",
+        "other_variants": [
+          "с"
+        ]
+      },
+      {
+        "word": "Клю_",
+        "correct_variant": "в",
+        "other_variants": [
+          "ф"
+        ]
+      },
+      {
+        "word": "Гри_",
+        "correct_variant": "б",
+        "other_variants": [
+          "п"
+        ]
+      },
+      {
+        "word": "Про_ка",
+        "correct_variant": "б",
+        "other_variants": [
+          "п"
+        ]
+      }
+    ],
+    [
+      {
+        "word": "Ло_",
+        "correct_variant": "б",
+        "other_variants": [
+          "п"
+        ]
+      },
+      {
+        "word": "Приста_",
+        "correct_variant": "в",
+        "other_variants": [
+          "ф"
+        ]
+      },
+      {
+        "word": "Уста_",
+        "correct_variant": "в",
+        "other_variants": [
+          "ф"
+        ]
+      },
+      {
+        "word": "Любо_ь",
+        "correct_variant": "в",
+        "other_variants": [
+          "ф"
+        ]
+      },
+      {
+        "word": "Уло_ка",
+        "correct_variant": "в",
+        "other_variants": [
+          "ф"
+        ]
+      },
+      {
+        "word": "Була_ка",
+        "correct_variant": "в",
+        "other_variants": [
+          "ф"
+        ]
+      },
+      {
+        "word": "Яго_ка",
+        "correct_variant": "д",
+        "other_variants": [
+          "т"
+        ]
+      },
+      {
+        "word": "Ло_ка",
+        "correct_variant": "д",
+        "other_variants": [
+          "т"
+        ]
+      },
+      {
+        "word": "Площа_ка",
+        "correct_variant": "д",
+        "other_variants": [
+          "т"
+        ]
+      },
+      {
+        "word": "Тетра_ка",
+        "correct_variant": "д",
+        "other_variants": [
+          "т"
+        ]
+      }
+    ]
+  ]
+}

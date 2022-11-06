@@ -1,35 +1,161 @@
 {
-  "rule_name": "Letters",
-  "rule_desc": "ЖИ ШИ всегда пишется\nс буквой И, а ЧА ЩА - с\nбуквой А!",
+  "rule_name": "Сочетания букв",
+  "description": "ЖИ ШИ всегда пиши с буквой И, а ЧА ЩА - с буквой А,\nЧУ ЩУ - с буквой У",
   "levels": [
     [
       {
-        "word": "S_r",
-        "correct_variant": "i",
-        "other_variants": [
-          "y"
-        ]
+        "word": "Ж_знь",
+        "correct_variant": "и",
+        "other_variants": ["ы"]
       },
       {
-        "word": "yes",
-        "correct_variant": "ij",
-        "other_variants": [
-          "y"
-        ]
+        "word": "Ш_ло",
+        "correct_variant": "и",
+        "other_variants": ["ы"]
       },
       {
-        "word": "n o",
-        "correct_variant": "il",
-        "other_variants": [
-          "yg"
-        ]
+        "word": "Ж_р",
+        "correct_variant": "и",
+        "other_variants": ["ы"]
       },
       {
-        "word": "S_r",
-        "correct_variant": "i",
-        "other_variants": [
-          "y"
-        ]
+        "word": "Пуш_нка",
+        "correct_variant": "и",
+        "other_variants": ["ы"]
+      },
+      {
+        "word": "Ж_молость",
+        "correct_variant": "и",
+        "other_variants": ["ы"]
+      },
+      {
+        "word": "Кувш_н",
+        "correct_variant": "и",
+        "other_variants": ["ы"]
+      },
+      {
+        "word": "Луж_",
+        "correct_variant": "и",
+        "other_variants": ["ы"]
+      },
+      {
+        "word": "Ш_рота",
+        "correct_variant": "и",
+        "other_variants": ["ы"]
+      },
+      {
+        "word": "Стриж_",
+        "correct_variant": "и",
+        "other_variants": ["ы"]
+      },
+      {
+        "word": "Камыш_",
+        "correct_variant": "и",
+        "other_variants": ["ы"]
+      }
+    ],
+    [
+      {
+        "word": "Куч_",
+        "correct_variant": "а",
+        "other_variants": ["я"]
+      },
+      {
+        "word": "Трещ_ть",
+        "correct_variant": "а",
+        "other_variants": ["я"]
+      },
+      {
+        "word": "Нач_ло",
+        "correct_variant": "а",
+        "other_variants": ["я"]
+      },
+      {
+        "word": "Гущ_",
+        "correct_variant": "а",
+        "other_variants": ["я"]
+      },
+      {
+        "word": "Туч_",
+        "correct_variant": "а",
+        "other_variants": ["я"]
+      },
+      {
+        "word": "Площ_дь",
+        "correct_variant": "а",
+        "other_variants": ["я"]
+      },
+      {
+        "word": "Ч_йник",
+        "correct_variant": "а",
+        "other_variants": ["я"]
+      },
+      {
+        "word": "Печ_ль",
+        "correct_variant": "а",
+        "other_variants": ["я"]
+      },
+      {
+        "word": "Скуч_ть",
+        "correct_variant": "а",
+        "other_variants": ["я"]
+      },
+      {
+        "word": "Вещ_ть",
+        "correct_variant": "а",
+        "other_variants": ["я"]
+      }
+    ],
+    [
+      {
+        "word": "Выпущ_",
+        "correct_variant": "у",
+        "other_variants": ["ю"]
+      },
+      {
+        "word": "Грущ_",
+        "correct_variant": "у",
+        "other_variants": ["ю"]
+      },
+      {
+        "word": "Ч_до",
+        "correct_variant": "у",
+        "other_variants": ["ю"]
+      },
+      {
+        "word": "Выуч_",
+        "correct_variant": "у",
+        "other_variants": ["ю"]
+      },
+      {
+        "word": "Щ_плый",
+        "correct_variant": "у",
+        "other_variants": ["ю"]
+      },
+      {
+        "word": "Свищ_",
+        "correct_variant": "у",
+        "other_variants": ["ю"]
+      },
+      {
+        "word": "Товарищ_",
+        "correct_variant": "у",
+        "other_variants": ["ю"]
+      },
+      {
+        "word": "Плач_",
+        "correct_variant": "у",
+        "other_variants": ["ю"]
+      },
+      {
+        "word": "Хохоч_",
+        "correct_variant": "у",
+        "other_variants": ["ю"]
+      },
+      {
+        "word": "Круч_",
+        "correct_variant": "у",
+        "other_variants": ["ю"]
       }
     ]
   ]

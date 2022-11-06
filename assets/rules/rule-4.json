@@ -1,0 +1,150 @@
+{
+  "rule_name": "Mягкий и твepдый знaк",
+  "description": "Разделительный твёрдый знак пишется после приставок на\nсогласный перед буквами е, ё, ю, я. Разделительный\nмягкий знак пишется не после приставок перед гласными\nе, ё, ю, я.",
+  "levels": [
+    [
+      {
+        "word": "Под_езд",
+        "correct_variant": "ъ",
+        "other_variants": [
+          "ь"
+        ]
+      },
+      {
+        "word": "Вороб_и",
+        "correct_variant": "ь",
+        "other_variants": [
+          "ъ"
+        ]
+      },
+      {
+        "word": "Под_ем",
+        "correct_variant": "ъ",
+        "other_variants": [
+          "ь"
+        ]
+      },
+      {
+        "word": "В_юга",
+        "correct_variant": "ь",
+        "other_variants": [
+          "ъ"
+        ]
+      },
+      {
+        "word": "Раз_ем",
+        "correct_variant": "ъ",
+        "other_variants": [
+          "ь"
+        ]
+      },
+      {
+        "word": "Л_ёт",
+        "correct_variant": "ь",
+        "other_variants": [
+          "ъ"
+        ]
+      },
+      {
+        "word": "С_емка",
+        "correct_variant": "ъ",
+        "other_variants": [
+          "ь"
+        ]
+      },
+      {
+        "word": "Сем_я",
+        "correct_variant": "ь",
+        "other_variants": [
+          "ъ"
+        ]
+      },
+      {
+        "word": "Об_ём",
+        "correct_variant": "ъ",
+        "other_variants": [
+          "ь"
+        ]
+      },
+      {
+        "word": "Плат_е",
+        "correct_variant": "ь",
+        "other_variants": [
+          "ъ"
+        ]
+      }
+    ],
+    [
+      {
+        "word": "Об_ект",
+        "correct_variant": "ъ",
+        "other_variants": [
+          "ь"
+        ]
+      },
+      {
+        "word": "Верблюж_е",
+        "correct_variant": "ь",
+        "other_variants": [
+          "ъ"
+        ]
+      },
+      {
+        "word": "Двух_ярусный",
+        "correct_variant": "ъ",
+        "other_variants": [
+          "ь"
+        ]
+      },
+      {
+        "word": "Крыл_я",
+        "correct_variant": "ь",
+        "other_variants": [
+          "ъ"
+        ]
+      },
+      {
+        "word": "Ад_ютант",
+        "correct_variant": "ъ",
+        "other_variants": [
+          "ь"
+        ]
+      },
+      {
+        "word": "Выл_ю",
+        "correct_variant": "ь",
+        "other_variants": [
+          "ъ"
+        ]
+      },
+      {
+        "word": "Пред_юбилейный",
+        "correct_variant": "ъ",
+        "other_variants": [
+          "ь"
+        ]
+      },
+      {
+        "word": "Колос_я",
+        "correct_variant": "ь",
+        "other_variants": [
+          "ъ"
+        ]
+      },
+      {
+        "word": "Сверх_естественный",
+        "correct_variant": "ъ",
+        "other_variants": [
+          "ь"
+        ]
+      },
+      {
+        "word": "П_еса",
+        "correct_variant": "ь",
+        "other_variants": [
+          "ъ"
+        ]
+      }
+    ]
+  ]
+}

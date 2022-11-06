@@ -36,7 +36,7 @@ class LevelChoiceScreen(rule: LanguageRule) : StageScreen() {
         }
     }
     private val infoTable = Table().apply {
-        add(Label("Запомни:", LanguageTrainer.skin)).left().width(200f)
+        add(Label("Запомни:", LanguageTrainer.skin)).center()
         row()
         rule.description.split("\\n").forEach {
             add(Label(it, LanguageTrainer.skin)).left()
@@ -56,9 +56,9 @@ class LevelChoiceScreen(rule: LanguageRule) : StageScreen() {
 
     init {
         headerLabel.setCenteredPosition(y = 200f)
-        levelList.setCenteredPosition(y = 60f)
-        exitButton.setCenteredPosition(y = -40f)
-        infoTable.setCenteredPosition(y = -150f)
+        levelList.setCenteredPosition(y = 80f)
+        exitButton.setCenteredPosition(y = -10f)
+        infoTable.setCenteredPosition(y = -160f)
     }
 
 }

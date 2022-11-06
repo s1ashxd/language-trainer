@@ -28,7 +28,7 @@ class LanguageRuleLoader(resolver: FileHandleResolver) :
     ): LanguageRule {
         val json = JsonReader().parse(Gdx.files.internal(fileName))
         val name = json.get("rule_name").asString()
-        val desc = json.get("rule_desc").asString()
+        val desc = json.get("description").asString()
         val levels = mutableListOf<LanguageRule.RuleLevel>()
         json.get("levels").forEachIndexed { index, jsonLevel ->
             val words = mutableListOf<LanguageRule.LevelWord>()

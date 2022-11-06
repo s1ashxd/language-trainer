@@ -1,0 +1,150 @@
+{
+  "rule_name": "Бeзудapныe глacныe в кopнe",
+  "description": "Чтoбы пpoвepить бeзудapную глacную A-O или E-И-Я в кopнe,\nнужнo измeнить фopму cлoвa или пoдoбpaть oднoкopeннoe cлoвo,\nв кoтopoм пpoвepяeмaя глacнaя былa бы пoд удapeниeм: дepeвья\n(дepeвo), кocить (кocит), кoлocoк (кoлoc, кoлocья), дитя (дитяткo).\nПpaвoпиcaниe нeпpoвepяeмыx бeзудapныx глacныx в кopнe\ncлoвa нужнo зaпoминaть.",
+  "levels": [
+    [
+      {
+        "word": "Гл_за",
+        "correct_variant": "а",
+        "other_variants": [
+          "о"
+        ]
+      },
+      {
+        "word": "Ч_стота",
+        "correct_variant": "а",
+        "other_variants": [
+          "я"
+        ]
+      },
+      {
+        "word": "Нак_лить",
+        "correct_variant": "а",
+        "other_variants": [
+          "о"
+        ]
+      },
+      {
+        "word": "Исп_рение",
+        "correct_variant": "а",
+        "other_variants": [
+          "о"
+        ]
+      },
+      {
+        "word": "Сокр_тить",
+        "correct_variant": "а",
+        "other_variants": [
+          "о"
+        ]
+      },
+      {
+        "word": "Пл_тить",
+        "correct_variant": "а",
+        "other_variants": [
+          "о"
+        ]
+      },
+      {
+        "word": "Н_чала",
+        "correct_variant": "а",
+        "other_variants": [
+          "о"
+        ]
+      },
+      {
+        "word": "Погл_щать",
+        "correct_variant": "о",
+        "other_variants": [
+          "а"
+        ]
+      },
+      {
+        "word": "Угр_жать",
+        "correct_variant": "о",
+        "other_variants": [
+          "а"
+        ]
+      },
+      {
+        "word": "Ум_лять",
+        "correct_variant": "о",
+        "other_variants": [
+          "а"
+        ]
+      }
+    ],
+    [
+      {
+        "word": "Т_птать",
+        "correct_variant": "о",
+        "other_variants": [
+          "а"
+        ]
+      },
+      {
+        "word": "Оп_здать",
+        "correct_variant": "о",
+        "other_variants": [
+          "а"
+        ]
+      },
+      {
+        "word": "Уг_монить",
+        "correct_variant": "о",
+        "other_variants": [
+          "а"
+        ]
+      },
+      {
+        "word": "Уч_ник",
+        "correct_variant": "е",
+        "other_variants": [
+          "и"
+        ]
+      },
+      {
+        "word": "Вп_ред",
+        "correct_variant": "е",
+        "other_variants": [
+          "и"
+        ]
+      },
+      {
+        "word": "Пот_рять",
+        "correct_variant": "е",
+        "other_variants": [
+          "я"
+        ]
+      },
+      {
+        "word": "С_рьга",
+        "correct_variant": "е",
+        "other_variants": [
+          "и"
+        ]
+      },
+      {
+        "word": "Осв_щение",
+        "correct_variant": "е",
+        "other_variants": [
+          "и"
+        ]
+      },
+      {
+        "word": "В_сна",
+        "correct_variant": "е",
+        "other_variants": [
+          "и"
+        ]
+      },
+      {
+        "word": "Поч_рк",
+        "correct_variant": "е",
+        "other_variants": [
+          "и"
+        ]
+      }
+    ]
+  ]
+}

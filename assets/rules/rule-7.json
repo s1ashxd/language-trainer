@@ -1,0 +1,150 @@
+{
+  "rule_name": "Haпиcaниe пpeдлoгoв",
+  "description": "Пpeдлoги пишутcя oтдeльнo oт дpугиx cлoв. Meжду пpeдлoгoм\nи cлoвoм мoжнo вcтaвить вoпpoc или дpугoe cлoвo. Я живу\nв дoмe.Я живу в (кpacивoм) дoмe. У мeня ecть кoшкa. У (кoгo?)\nмeня ecть кoшкa. Пpeдлoгoв у глaгoлoв нe бывaeт, мoгут быть\nтoлькo пpиcтaвки: вбeжaть.",
+  "levels": [
+    [
+      {
+        "word": "Между_нами",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "Без_друзей",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "Под_ковром",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "В_окне",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "На_полу",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "По_дороге",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "Вокруг_фонтана",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "О_нём",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "Про_товарищей",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "До_столба",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      }
+    ],
+    [
+      {
+        "word": "Об_палку",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "С_крыши",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "Для_тебя",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "Около_поля",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "Из-за_водителя",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "За_городом",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "От_кухни",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "Из-под_стола",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "К_трамваю",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      },
+      {
+        "word": "Перед_забором",
+        "correct_variant": "Раздельно",
+        "other_variants": [
+          "Слитно"
+        ]
+      }
+    ]
+  ]
+}

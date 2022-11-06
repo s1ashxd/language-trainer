@@ -1,5 +1,5 @@
 {
-  "com.badlogic.gdx.graphics.Color": {
+  "Color": {
     "green": {
       "r": 0,
       "g": 1,
@@ -48,7 +48,7 @@
       "hinting": "AutoMedium",
       "minFilter": "Nearest",
       "magFilter": "Nearest",
-      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ.,_!%?:*()"
+      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячёсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЁЭЯЧСМИТЬБЮ.,_!%?:*()-]["
     },
     "header-success": {
       "font": "myriad.ttf",
@@ -72,7 +72,7 @@
       "hinting": "AutoMedium",
       "minFilter": "Nearest",
       "magFilter": "Nearest",
-      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ.,_!%?:*()"
+      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмиётьбюЙЦУКЕНГШЩЗХЪФЫЁВАПРОЛДЖЭЯЧСМИТЬБЮ.,_!%?:*()-[]"
     },
     "myriad-header": {
       "font": "myriad.ttf",
@@ -96,7 +96,7 @@
       "hinting": "AutoMedium",
       "minFilter": "Nearest",
       "magFilter": "Nearest",
-      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ.,_!%?:*()"
+      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджёэячсмитьбюЙЦУКЕНГШЩЗХЪФЁЫВАПРОЛДЖЭЯЧСМИТЬБЮ.,_!%?:*()-[]"
     },
     "myriad-label": {
       "font": "myriad.ttf",
@@ -120,7 +120,7 @@
       "hinting": "AutoMedium",
       "minFilter": "Nearest",
       "magFilter": "Nearest",
-      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ.,_!%?:*()"
+      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбёюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСЁМИТЬБЮ.,_!%?:*()-[]"
     },
     "myriad-small-header": {
       "font": "myriad.ttf",
@@ -144,10 +144,10 @@
       "hinting": "AutoMedium",
       "minFilter": "Nearest",
       "magFilter": "Nearest",
-      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ.,_!%?:*()"
+      "characters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789йцукенгшщзхъфывапролджэячсмиётьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМЁИТЬБЮ.,_!%?:*()-[]"
     }
   },
-  "com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+  "LabelStyle": {
     "default": {
       "font": "myriad-label"
     },
@@ -164,13 +164,13 @@
       "font": "header-success"
     }
   },
-  "com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+  "TextButtonStyle": {
     "default": {
       "font": "myriad-label",
       "up": "button"
     }
   },
-  "com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle": {
+  "TextTooltipStyle": {
     "default": {
       "label": "default"
     }

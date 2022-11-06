@@ -1,0 +1,150 @@
+{
+  "rule_name": "Ы-И пocлe Ц",
+  "description": "Буквa И пишeтcя пocлe Ц в кopняx cлoв и в слoвax нa -ЦИЯ: циpк,\nмoтoцикл, лeкция. Иcключeния: цыгaн, цыплёнoк, цыц, цыкнуть,\nнa цыпoчкax, цыпки. Cчитaлoчкa: У Цыгaн нa цыпoчкax цыплёнку\nцыкнул: «Цыц!» Буквa Ы пишeтcя пocлe Ц в cлучaяx: oкoнчaния\ncущecтвитeльныx мнoжecтвeннoгo чиcлa: oгуpцы, лecтницы;\noкoнчaния пpилaгaтeльныx: блeднoлицый; cуффикcы\nпpилaгaтeльныx нa -ЦЫH (лиcицын xвocт, cecтpицынa пoдpужкa).",
+  "levels": [
+    [
+      {
+        "word": "Ц_ркуль",
+        "correct_variant": "и",
+        "other_variants": [
+          "ы"
+        ]
+      },
+      {
+        "word": "Панц_рь",
+        "correct_variant": "и",
+        "other_variants": [
+          "ы"
+        ]
+      },
+      {
+        "word": "Ц_рк",
+        "correct_variant": "и",
+        "other_variants": [
+          "ы"
+        ]
+      },
+      {
+        "word": "Ц_фра",
+        "correct_variant": "и",
+        "other_variants": [
+          "ы"
+        ]
+      },
+      {
+        "word": "Ц_пленок",
+        "correct_variant": "ы",
+        "other_variants": [
+          "и"
+        ]
+      },
+      {
+        "word": "Ц_к",
+        "correct_variant": "ы",
+        "other_variants": [
+          "и"
+        ]
+      },
+      {
+        "word": "Ц_почки",
+        "correct_variant": "ы",
+        "other_variants": [
+          "и"
+        ]
+      },
+      {
+        "word": "Ц_кать",
+        "correct_variant": "ы",
+        "other_variants": [
+          "и"
+        ]
+      },
+      {
+        "word": "Ц_ган",
+        "correct_variant": "ы",
+        "other_variants": [
+          "и"
+        ]
+      },
+      {
+        "word": "Ц_плячий",
+        "correct_variant": "ы",
+        "other_variants": [
+          "и"
+        ]
+      }
+    ],
+    [
+      {
+        "word": "Интеллегенц_я",
+        "correct_variant": "и",
+        "other_variants": [
+          "ы"
+        ]
+      },
+      {
+        "word": "Акац_я",
+        "correct_variant": "и",
+        "other_variants": [
+          "ы"
+        ]
+      },
+      {
+        "word": "Нац_я",
+        "correct_variant": "и",
+        "other_variants": [
+          "ы"
+        ]
+      },
+      {
+        "word": "Опц_я",
+        "correct_variant": "и",
+        "other_variants": [
+          "ы"
+        ]
+      },
+      {
+        "word": "Спец_я",
+        "correct_variant": "и",
+        "other_variants": [
+          "ы"
+        ]
+      },
+      {
+        "word": "Авиац_я",
+        "correct_variant": "и",
+        "other_variants": [
+          "ы"
+        ]
+      },
+      {
+        "word": "Реакц_я",
+        "correct_variant": "и",
+        "other_variants": [
+          "ы"
+        ]
+      },
+      {
+        "word": "Лисиц_н",
+        "correct_variant": "ы",
+        "other_variants": [
+          "и"
+        ]
+      },
+      {
+        "word": "Сестриц_н",
+        "correct_variant": "ы",
+        "other_variants": [
+          "и"
+        ]
+      },
+      {
+        "word": "Улиц_",
+        "correct_variant": "ы",
+        "other_variants": [
+          "и"
+        ]
+      }
+    ]
+  ]
+}

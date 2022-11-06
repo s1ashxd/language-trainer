@@ -11,15 +11,14 @@ import ru.wyvern.trainer.utils.createDefaultStage
 class RuleChoiceScreen : StageScreen() {
 
     companion object {
-        private const val RULE_COUNT = 10
+        private const val RULE_COUNT = 8
     }
 
     private val headerLabel1 = Label("Выберите", LanguageTrainer.skin, "header")
     private val headerLabel2 = Label("правило:", LanguageTrainer.skin, "header")
     private val buttonTable = Table().left().top().apply {
         val table = Table().apply {
-            for (i1 in 1..RULE_COUNT) {
-                val i = 0
+            for (i in 0 until RULE_COUNT) {
                 LanguageTrainer.assetManager.apply {
                     val rule = if (!contains("rules/rule-$i.json", LanguageRule::class.java)) {
                         load("rules/rule-$i.json", LanguageRule::class.java)
@@ -27,8 +26,8 @@ class RuleChoiceScreen : StageScreen() {
                     } else get("rules/rule-$i.json", LanguageRule::class.java)
                     add(TextButton(rule.name, LanguageTrainer.skin).apply {
                         addClickListener { LanguageTrainer.screen = LevelChoiceScreen(rule) }
-                    }).size(240f, 45f).pad(5f)
-                    if (i1 % 2 == 0) row()
+                    }).size(300f, 45f).pad(5f)
+                    if ((i + 1) % 2 == 0) row()
                 }
             }
         }

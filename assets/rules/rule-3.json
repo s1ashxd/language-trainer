@@ -1,0 +1,150 @@
+{
+  "rule_name": "Буквы O и Ё пocлe шипящиx",
+  "description": "Пocлe шипящиx в кopняx cлoв пoд удapeниeм звук [o]\noбoзнaчaeтcя буквoй ё, ecли пpи измeнeнии cлoвa или\noбpaзoвaнии poдcтвeннoгo cлoвa в этoм кopнe звук [o]\nнe cлышитcя. Пpимep: пчёлы - пчeлa, жёлтый - жeлтeть.\nB ocтaльныx cлучaяx пишeтcя буквa o. Пpимep: шopты,\nшopox.",
+  "levels": [
+    [
+      {
+        "word": "Девч_нка",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      },
+      {
+        "word": "Реч_нка",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      },
+      {
+        "word": "Мальч_нка",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      },
+      {
+        "word": "Больш_го",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      },
+      {
+        "word": "Чуж_го",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      },
+      {
+        "word": "Лапш_й",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      },
+      {
+        "word": "Морж_вый",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      },
+      {
+        "word": "Плеч_м",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      },
+      {
+        "word": "Мяч_м",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      },
+      {
+        "word": "Чуж_й",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      }
+    ],
+    [
+      {
+        "word": "Лпаш_й",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      },
+      {
+        "word": "Ч_рный",
+        "correct_variant": "ё",
+        "other_variants": [
+          "о"
+        ]
+      },
+      {
+        "word": "Ж_лтый",
+        "correct_variant": "ё",
+        "other_variants": [
+          "о"
+        ]
+      },
+      {
+        "word": "Пч_лы",
+        "correct_variant": "ё",
+        "other_variants": [
+          "о"
+        ]
+      },
+      {
+        "word": "Крыж_вник",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      },
+      {
+        "word": "Изж_га",
+        "correct_variant": "о",
+        "other_variants": [
+          "ё"
+        ]
+      },
+      {
+        "word": "Теч_т",
+        "correct_variant": "ё",
+        "other_variants": [
+          "о"
+        ]
+      },
+      {
+        "word": "Сеч_т",
+        "correct_variant": "ё",
+        "other_variants": [
+          "о"
+        ]
+      },
+      {
+        "word": "Стаж_р",
+        "correct_variant": "ё",
+        "other_variants": [
+          "о"
+        ]
+      },
+      {
+        "word": "Дириж_р",
+        "correct_variant": "ё",
+        "other_variants": [
+          "о"
+        ]
+      }
+    ]
+  ]
+}
